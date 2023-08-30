@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.mainscreen{
+    width: 100vw;
+}
+aside{
+    display: flex;
+    padding: 2rem;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.vl {
+    display: flex;
+    border-left: 2px solid #fff;
+    height: 100;
+    padding: 1rem;
+  }
+.aside-menu{
+    height: 100%;
+}
+
+.aside-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-menu ul li{
+    list-style-type: none;
+    padding: 0.25rem;
+}
+.aside-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #bdbdbd;
+}
+
+.nav-elements li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.profiles{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+
+.profiles img{
+    border-radius: 100%;
+    width: 50px;
+    margin-left: 1rem;
+}
+section{
+    color: #fff;
+}
+section span{
+    color: rgb(0, 85, 197);
+}
+
+#film-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#film-form .btn{
+    margin: 0 1rem;
+}
+.form-column{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:961px)  { 
+    .aside-menu{
+        display: none;
+    }
+    .vl{
+        display: none;
+    }
+}
